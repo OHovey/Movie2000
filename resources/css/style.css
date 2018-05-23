@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(68, 44, 3);
+}
+
+.wrapper {
+    margin: 0 10%;
+    /* background: #AC6C00; */
+}
+    
+
+.above-nav {
+    width: 100%;
+    height: 120px;
+}
+    .above-nav p {
+        padding-top: 40px;
+        color: wheat;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+    }
+
+.navbar {
+    background-color: wheat;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+    form {
+        margin: auto;
+    }
+
+    #livesearch {
+        width: 30%;
+        margin: auto;
+        background: #b17b1c;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.3em;
+    }
+
+
+/* view-movie css */
+
+.content {
+    margin-top: 30px;
+}
+    .movie-info-list-item {
+        list-style: none;
+    }
+
+.filter-form {
+    margin: 0;
+    width: 100%;
+}
+
+.movies-list a {
+    padding: 20px;
+}
+
+.movie-detail-list {
+    background-color: #b17b1c;
+    border-radius: 5px;
+    padding: 15px;
+}
+    .movie-detail-list img {
+        margin-bottom: 20px;
+    }
+
+    ul#movie-info-list {
+        margin: 0;
+    }
+
+    #movie-info-list, h3 {
+        margin-top: 20px;
+    }
+
+    #movie-info-list li {
+        margin-bottom: 10px;
+    }
+
+    .movie-detail-list p {
+        font-family: 'Kavivanar', cursive;
+    }
+
+    .movie-detail-list h3, .movie-detail-list h2, .movie-detail-list strong {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .col-sm-8 .list-group-item {
+        padding-top: 0;
+        background: #b17b1c;
+        border: 0;
+    }
+
+    .list-group-item h3 {
+        margin-top: 0;
+        
+    }
+
+.list-group {
+    background-color: #b17b1c;
+    border-radius: 5px;
+    padding: 10px;
+}
+    .list-group a {
+        border-bottom: 2px solid rgb(68, 44, 3);
+    }
+
+    .list-group .list-group-item {
+        font-family: 'Lato', sans-serif;
+    }
+
+.pagination {
+    margin: 20px auto;
+}
+
