@@ -68,7 +68,7 @@ class Template
 
         if (isset($this->data[$name]))
         {
-            if ($echo = true)
+            if ($echo == true)
             {
                 echo $this->data[$name];
             }
