@@ -3,15 +3,7 @@
 include('app/init.php');
 
 if (isset($_GET['title']))
-{
-    // echo '<pre>';
-    // print_r($Movie->create_detail_view($_GET['title']));
-    // echo '</pre>';
-
-    // $data = $Movie->get(trim($_GET['title']));
-    // $img = $data[0]['image_url'];
-    // $Template->set_data('img', $img);
-    
+{   
     $display = $Movie->create_detail_view($_GET['title']);
     $Template->set_data('movie_details', $display);
     $Template->load('app/views/view-movie.php', 'movie_details');
